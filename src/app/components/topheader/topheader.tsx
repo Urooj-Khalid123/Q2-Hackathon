@@ -1,7 +1,8 @@
+
 import React from "react";
 import { RxCross2 } from "react-icons/rx";
 
-const Top = () => {
+const TopHeader = () => {
   return (
     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-black text-white">
       {/* Sale Banner */}
@@ -27,8 +28,4 @@ const Top = () => {
   );
 };
 
-export default Top;
-
-
-
-
+export default TopHeader;

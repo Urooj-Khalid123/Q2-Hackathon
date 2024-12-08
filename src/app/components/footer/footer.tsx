@@ -3,19 +3,19 @@ import { RiFacebookFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
 import Image from "next/image";
-
+import NewsLetter from "../newsletter/newsletter";
 
 export default function Footer() {
   return (
     <>
-      <div />
+      <NewsLetter />
       <div className="bg-[#F0F0F0] w-full h-auto pt-16 pb-8 px-4 sm:px-8 lg:px-20">
         <div className="max-w-[1440px] max-h-[499px] mx-auto pt-20 pb-0 flex flex-col lg:flex-row justify-between items-start lg:h-[499px]  lg:space-y-0">
           {/* Company Info Section */}
           <div className="flex flex-col gap-4 justify-start items-start ">
             <h3 className="font-satoshi w-[167px] h-[23px] text-4xl font-bold mb-4">SHOP.CO</h3>
             <p className="font-satoshi w-[248px] h-[66px] text-sm text-[#00000099] mb-8">
-              We have clothes that suit your style and which you are proud to wear. From women to men.
+              We have clothes that suit your style and which you’re proud to wear. From women to men.
             </p>
             <div className="flex gap-4">
               <div className="h-[35px] w-[35px] rounded-full bg-white flex justify-center items-center">
@@ -80,7 +80,7 @@ export default function Footer() {
         {/* Footer Bottom Section */}
         <div className="flex justify-between items-center ">
           <div className="font-satoshi text-sm text-[#00000099]">Shop.co © 2000-2023, All Rights Reserved</div>
-          <Image src={"/footer.png"} alt={"logo"} height={50} width={281} />
+          <Image src={"/paylogo.png"} alt={"Paylogo2"} height={30} width={281} />
         </div>
       </div>
     </>
